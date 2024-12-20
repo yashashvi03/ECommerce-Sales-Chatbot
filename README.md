@@ -47,8 +47,24 @@ This E-Commerce Sales Chatbot is designed to revolutionize online shopping exper
 - npm or yarn
 
 ### Backend Setup
+Navigate to the backend directory:
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python setup_db.py
 
-1. Navigate to the backend directory:
+### Setup the frontend
+cd frontend
+npm install
+
+
+### Start the backend server:
+python app.py
+
+### Start the frontend development server:
+npm run dev
+
 
 ## Project Structure
 E-Commerce-Sales-Chatbot/
@@ -56,5 +72,16 @@ E-Commerce-Sales-Chatbot/
 ├── frontend-next/    # Next.js frontend application
 ├── docs/            # Project documentation
 └── README.md        # Project overview and setup guide
+
+
+
+-Open http://localhost:3000 in your browser
+
+## Usage
+
+1. Register or log in to start a chat session
+2. Use natural language to search for products
+3. Apply filters to refine search results
+4. Purchase products directly through the chat interface
 
 
