@@ -9,8 +9,6 @@ An AI-powered chatbot designed to enhance the e-commerce shopping experience by 
 4. [Setup Instructions](#setup-instructions)
 5. [Usage Guide](#usage-guide)
 6. [API Documentation](#api-documentation)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Project Overview
 
