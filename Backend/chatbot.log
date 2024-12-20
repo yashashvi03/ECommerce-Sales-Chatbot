@@ -173,3 +173,78 @@ INFO:root:Search performed: query='jeans', category='Clothing', price range=270-
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "GET /search?q=jeans&category=Clothing&min_price=270&max_price=1000 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "POST /save_chat HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:31] "OPTIONS /purchase HTTP/1.1" 200 -
+ERROR:root:Error during purchase: table purchases has no column named purchase_time
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:31] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:31] "OPTIONS /save_chat HTTP/1.1" 200 -
+ERROR:root:Error during purchase: table purchases has no column named purchase_time
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:36] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:37] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error during purchase: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:39] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:40] "OPTIONS /save_chat HTTP/1.1" 200 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:42] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:35:46] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:00] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='book', category='Books', price range=270-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:01] "GET /search?q=book&category=Books&min_price=270&max_price=1000 HTTP/1.1" 200 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:06] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:07] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:root:Search performed: query='shirt', category='Clothing', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:38] "GET /search?q=shirt&category=Clothing&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:38] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:38] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:43] "OPTIONS /purchase HTTP/1.1" 200 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:44] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:44] "POST /save_chat HTTP/1.1" 200 -
+ERROR:root:Error during purchase: table purchases has no column named purchase_time
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:44] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:44] "OPTIONS /save_chat HTTP/1.1" 200 -
+ERROR:root:Error during purchase: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:48] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:50] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:36:54] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:03] "OPTIONS /purchase HTTP/1.1" 200 -
+ERROR:root:Error during purchase: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:09] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:09] "OPTIONS /save_chat HTTP/1.1" 200 -
+ERROR:root:Error during purchase: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:09] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+ERROR:root:Error during purchase: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:10] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:15] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:15] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:37:16] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:32] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='hii', category='', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:32] "GET /search?q=hii&category=&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:32] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:32] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:37] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='top', category='', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:37] "GET /search?q=top&category=&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:37] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:38:37] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:32:10] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='Electronics', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:32:10] "GET /search?q=laptop&category=Electronics&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:32:10] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:32:10] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:01] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='jeans', category='Clothing', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:01] "GET /search?q=jeans&category=Clothing&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:02] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:02] "POST /save_chat HTTP/1.1" 200 -
+INFO:root:User logged out: yashashvi
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:37:15] "POST /logout HTTP/1.1" 200 -
