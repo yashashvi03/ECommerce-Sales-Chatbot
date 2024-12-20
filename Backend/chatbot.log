@@ -155,3 +155,21 @@ INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 14:27:27] "[31m[1mGET /search?q=lapto
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 14:27:27] "OPTIONS /save_chat HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 14:27:27] "[31m[1mPOST /save_chat HTTP/1.1[0m" 401 -
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 14:27:28] "[31m[1mPOST /save_chat HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-354-387
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:38] "OPTIONS /login HTTP/1.1" 200 -
+INFO:root:User logged in: yashashvi
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:39] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:39] "GET /chat_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:53] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop ', category='', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:53] "GET /search?q=laptop%20&category=&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:53] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:31:53] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='jeans', category='Clothing', price range=270-1000
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "GET /search?q=jeans&category=Clothing&min_price=270&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 15:33:14] "POST /save_chat HTTP/1.1" 200 -
