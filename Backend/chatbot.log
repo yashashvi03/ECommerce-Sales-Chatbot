@@ -1,0 +1,118 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 194-140-634
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:37:29] "OPTIONS /register HTTP/1.1" 200 -
+INFO:root:New user registered: abc
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:37:30] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:37:30] "[31m[1mGET /chat_history HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:38:12] "OPTIONS /login HTTP/1.1" 200 -
+INFO:root:User logged in: xyz
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:38:13] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:38:13] "GET /chat_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:40:47] "OPTIONS /login HTTP/1.1" 200 -
+INFO:root:User logged in: abc
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:40:48] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 11:40:48] "GET /chat_history HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 194-140-634
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:03] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:03] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:08] "OPTIONS /login HTTP/1.1" 200 -
+INFO:root:User logged in: abc
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:08] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:08] "GET /chat_history HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:30] "GET /search?q=laptop&category=&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:31] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:31] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:31] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:47:31] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:05] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='charger', category='Electronics', price range=100-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:05] "GET /search?q=charger&category=Electronics&min_price=100&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:05] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:05] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:17] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='books', category='all', price range=100-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:17] "GET /search?q=books&category=all&min_price=100&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:17] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:17] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:38] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='all', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:38] "GET /search?q=laptop&category=all&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:38] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 12:48:38] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:41] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='all', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:41] "GET /search?q=laptop&category=all&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:41] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:41] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:53] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='Electronics', price range=90-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:53] "GET /search?q=laptop&category=Electronics&min_price=90&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:53] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:10:53] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:15] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='jeans', category='Clothing', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:15] "GET /search?q=jeans&category=Clothing&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:16] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:16] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:20] "OPTIONS /purchase HTTP/1.1" 200 -
+ERROR:root:Error during purchase: table purchases has no column named purchase_time
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:20] "[35m[1mPOST /purchase HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:26] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:root:Search performed: query='laptop', category='Electronics', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:35] "GET /search?q=laptop&category=Electronics&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:36] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:36] "OPTIONS /save_chat HTTP/1.1" 200 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:42] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+ERROR:root:Error saving chat message: database is locked
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:11:42] "[35m[1mPOST /save_chat HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:00] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='pillow covers', category='Home ', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:00] "GET /search?q=pillow%20covers&category=Home%20&%20Garden&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:00] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:00] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:26] "OPTIONS /register HTTP/1.1" 200 -
+INFO:root:New user registered: anshuman
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:27] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:27] "GET /chat_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:44] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='jeans', category='Clothing', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:44] "GET /search?q=jeans&category=Clothing&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:44] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2024 13:12:44] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-819-945
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 13:35:33] "OPTIONS /register HTTP/1.1" 200 -
+ERROR:root:Error during registration: no such table: users
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 13:35:33] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-819-945
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 13:39:13] "OPTIONS /register HTTP/1.1" 200 -
+ERROR:root:Error during registration: no such table: users
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 13:39:13] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-354-387
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 13:49:38] "[33mOPTIONS /register HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\internship\\ECommerse-sales-Chatbot\\ECommerce-Sales-Chatbot\\Backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
