@@ -248,3 +248,18 @@ INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:02] "POST /save_chat HTTP/1.1" 20
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:33:02] "POST /save_chat HTTP/1.1" 200 -
 INFO:root:User logged out: yashashvi
 INFO:werkzeug:127.0.0.1 - - [20/Dec/2024 17:37:15] "POST /logout HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-819-945
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:36] "OPTIONS /login HTTP/1.1" 200 -
+INFO:root:User logged in: yashashvi
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:36] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:36] "GET /chat_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:49] "OPTIONS /save_chat HTTP/1.1" 200 -
+INFO:root:Search performed: query='laptop', category='Electronics', price range=0-1000
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:49] "GET /search?q=laptop&category=Electronics&min_price=0&max_price=1000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:49] "POST /save_chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 21:25:49] "POST /save_chat HTTP/1.1" 200 -
